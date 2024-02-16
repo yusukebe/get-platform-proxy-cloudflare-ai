@@ -31,3 +31,7 @@ Node.js v20.10.0
 error Command failed with exit code 7.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
+
+## Work-around
+
+Adding `duplex:'half'` to fetch option in the `@cloudflare/ai` solves the problem.
