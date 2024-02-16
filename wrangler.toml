@@ -1,6 +1,9 @@
 name = "fetch-duplex"
-main = "src/index.ts"
+main = "src/index.mts"
 compatibility_date = "2024-02-08"
+
+[ai]
+binding = "AI"
 
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
